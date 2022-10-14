@@ -21,7 +21,7 @@
           <span></span>
           
           <ul id="menu">
-            <a href="index.php"><li>Home</li></a>
+            <a href="home.php"><li>Home</li></a>
             <a href="Drawing.php"><li>Drawing</li></a>
             <a href="Traveling.php"><li>Traveling</li></a>
             <a href="Project.php"><li>Projects</li></a>
