@@ -20,7 +20,7 @@
           <span></span>
           
           <ul id="menu">
-            <a href="home.html"><li>Home</li></a>
+            <a href="index.html"><li>Home</li></a>
             <a href="Drawing.html"><li>Drawing</li></a>
             <a href="Traveling.html"><li>Traveling</li></a>
             <a href="Project.html"><li>Projects</li></a>
