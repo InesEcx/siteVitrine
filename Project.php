@@ -20,10 +20,10 @@
           <span></span>
           
           <ul id="menu">
-            <a href="home.html"><li>Home</li></a>
-            <a href="Drawing.html"><li>Drawing</li></a>
-            <a href="Traveling.html"><li>Traveling</li></a>
-            <a href="Project.html"><li>Projects</li></a>
+            <a href="home.php"><li>Home</li></a>
+            <a href="Drawing.php"><li>Drawing</li></a>
+            <a href="Traveling.php"><li>Traveling</li></a>
+            <a href="Project.php"><li>Projects</li></a>
           </ul>
         </div>
     </nav>
@@ -53,10 +53,10 @@
                 <img src='CSS/Images/HomeTile/tile10.png'/>
                 <div class="text">
                     <h1>MONSTER HUNTER</h1>
-                    <h2 class="animate-text">May I introduce myself</h2>
+                    <h2 class="animate-text">Project 1</h2>
                     <p class="animate-text">Bla-Bla-Bla
                     </p>
-                    <a href="attente.html"><button class="animate-text" ><span id="readMore">Read More</span></button></a>
+                    <a href="attente.php"><button class="animate-text" ><span id="readMore">Read More</span></button></a>
                 </div>
             </div>
             
@@ -64,10 +64,10 @@
                 <img src='CSS/Images/HomeTile/tile11.png'/>
                 <div class="text">
                     <h1>CHOCOLATE FACTORY DATABASE</h1>
-                    <h2 class="animate-text">How I put my free time in use</h2>
+                    <h2 class="animate-text">Project 2</h2>
                     <p class="animate-text"> Bla-Bla-Bla
                     </p>
-                    <a href="attente.html"><button class="animate-text" ><span id="readMore">Read More</span></button></a>
+                    <a href="attente.php"><button class="animate-text" ><span id="readMore">Read More</span></button></a>
                 </div>
             </div>
               
@@ -75,10 +75,10 @@
                 <img src='CSS/Images/HomeTile/tile9.png'/>
                 <div class="text">
                     <h1>JINKO</h1>
-                    <h2 class="animate-text">What am I doing and where am I going</h2>
+                    <h2 class="animate-text">Project 3</h2>
                     <p class="animate-text">Bla-Bla-Bla
                     </p>
-                    <a href="attente.html"><button class="animate-text" ><span id="readMore">Read More</span></button></a>
+                    <a href="attente.php"><button class="animate-text" ><span id="readMore">Read More</span></button></a>
                 </div>
             </div>
         </div>
@@ -87,10 +87,10 @@
                 <img src='CSS/Images/HomeTile/tile1.jpg'/>
                 <div class="text">
                     <h1>DRAIN MIND</h1>
-                    <h2 class="animate-text">May I introduce myself</h2>
+                    <h2 class="animate-text">Project 4</h2>
                     <p class="animate-text">Bla-Bla-Bla
                     </p>
-                    <a href="attente.html"><button class="animate-text" ><span id="readMore">Read More</span></button></a>
+                    <a href="attente.php"><button class="animate-text" ><span id="readMore">Read More</span></button></a>
                 </div>
             </div>
             
@@ -98,10 +98,10 @@
                 <img src='CSS/Images/HomeTile/tile13.png'/>
                 <div class="text">
                     <h1>EURISTICS</h1>
-                    <h2 class="animate-text">How I put my free time in use</h2>
+                    <h2 class="animate-text">Project 5</h2>
                     <p class="animate-text"> Bla-Bla-Bla
                     </p>
-                    <a href="attente.html"><button class="animate-text" ><span id="readMore">Read More</span></button></a>
+                    <a href="attente.php"><button class="animate-text" ><span id="readMore">Read More</span></button></a>
                 </div>
             </div>
               
@@ -109,10 +109,10 @@
                 <img src='CSS/Images/HomeTile/tile3.png'/>
                 <div class="text">
                     <h1>INSTALLATION OF NETWORK SERVICES</h1>
-                    <h2 class="animate-text">What am I doing and where am I going</h2>
+                    <h2 class="animate-text">Project 6</h2>
                     <p class="animate-text">Bla-Bla-Bla
                     </p>
-                    <a href="attente.html"><button class="animate-text" ><span id="readMore">Read More</span></button></a>
+                    <a href="attente.php"><button class="animate-text" ><span id="readMore">Read More</span></button></a>
                 </div>
             </div>
         </div>
@@ -121,10 +121,10 @@
                 <img src='CSS/Images/HomeTile/tile3.jpg'/>
                 <div class="text">
                     <h1>PROJECT MANAGEMENT</h1>
-                    <h2 class="animate-text">May I introduce myself</h2>
+                    <h2 class="animate-text">Project 7</h2>
                     <p class="animate-text">Bla-Bla-Bla
                     </p>
-                    <a href="attente.html"><button class="animate-text" ><span id="readMore">Read More</span></button></a>
+                    <a href="attente.php"><button class="animate-text" ><span id="readMore">Read More</span></button></a>
                 </div>
             </div>
             
@@ -132,10 +132,10 @@
                 <img src='CSS/Images/HomeTile/tile2.jpg'/>
                 <div class="text">
                     <h1>AIR PUR</h1>
-                    <h2 class="animate-text">How I put my free time in use</h2>
+                    <h2 class="animate-text">Project 8</h2>
                     <p class="animate-text"> Bla-Bla-Bla
                     </p>
-                    <a href="attente.html"><button class="animate-text" ><span id="readMore">Read More</span></button></a>
+                    <a href="attente.php"><button class="animate-text" ><span id="readMore">Read More</span></button></a>
                 </div>
             </div>
         </div>

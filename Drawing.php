@@ -21,10 +21,10 @@
           <span></span>
           
           <ul id="menu">
-            <a href="home.html"><li>Home</li></a>
-            <a href="Drawing.html"><li>Drawing</li></a>
-            <a href="Traveling.html"><li>Traveling</li></a>
-            <a href="Project.html"><li>Projects</li></a>
+            <a href="home.php"><li>Home</li></a>
+            <a href="Drawing.php"><li>Drawing</li></a>
+            <a href="Traveling.php"><li>Traveling</li></a>
+            <a href="Project.php"><li>Projects</li></a>
           </ul>
         </div>
     </nav>
@@ -59,7 +59,7 @@
                         if I could make it and finally it ended up being something I enjoy doing. It follows the story of three 
                         youngsters who fallen into a strange world. The story is about they come back to Earth and how it goes.
                         Of course it's way more complicated than that so if you are interested click on the button ! </p>
-                        <a href="attente.html"><button class="animate-text" ><span id="readMore">Read More</span></button></a>
+                        <a href="attente.php"><button class="animate-text" ><span id="readMore">Read More</span></button></a>
                 </div>
             </div>
             
