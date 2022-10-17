@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,600,600i');
 
+*{
+  max-width: 100%;
+}
 html,body{
   margin:0;
   font-family: 'Josefin Sans', sans-serif;  
