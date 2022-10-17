@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,600,600i');
+
+@font-face {
+    src: url("https://www.axis-praxis.org/fonts/webfonts/MetaVariableDemo-Set.woff2")
+      format("woff2");
+    font-family: "Meta";
+    font-style: normal;
+    font-weight: normal;
+  }
+  .title {
+    transition: all 0.5s;
+    -webkit-text-stroke: 4px #d6f4f4;
+    font-variation-settings: "wght" 900, "ital" 1;
+    font-size: 12rem;
+    text-align: center;
+    color: transparent;
+    font-family: "Meta", sans-serif;
+    text-shadow: 10px 10px 0px #433546,
+      15px 15px 0px #e601c0,
+      20px 20px 0px #e9019a,
+      25px 25px 0px #f40468,
+      45px 45px 10px #482896;
+  }
+* {
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    font-family: 'Josefin Sans', sans-serif;  
+    line-height: 1.5;
+    margin: 0;
+    position: relative;
+    background-color: #433546;
+}
+article {
+    max-width: 1540px;
+    height: 100%;
+    box-sizing: border-box;
+    float: none;
+    margin:auto;
+}
+@media screen and (min-width: 640px) {
+    article {
+        max-width: 1540px;
+        display: flex;
+   }
+}
+.hero-image {
+    max-width: 100%;
+}
+@media screen and (min-width: 640px) {
+    .hero-image {
+        width: 50%;
+        height: 100%;
+        object-fit: cover;
+   }
+}
+.right {
+    width: 100%;
+    position: relative;
+    padding: 1rem 1.5rem;
+    text-align: justify;
+    font-size: 1rem;
+    color:#eee;
+}
+@media screen and (min-width: 640px) {
+    .right {
+        width: 50%;
+        height: 100vh;
+        overflow-y: auto;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+   }
+    .right::-webkit-scrollbar {
+        display: none;
+        width: 0;
+        height: 0;
+   }
+}
+h1 {
+    font-size: 1.8rem;
+    margin-top:0;
+    margin-bottom: 0;
+}
+h2 {
+    text-align: center;
+    padding-top: 1rem;
+}
+p#author {
+    margin: 0 0 1rem;
+    text-align: center;
+}
+img[class^="editorial-image"] {
+    max-width: 100%;
+    margin: 10px 0;
+}
+@media screen and (min-width: 640px) {
+    img[class^="editorial-image"] {
+        max-width: 60%;
+        margin: 10px 30px;
+   }
+}
+.editorial-image-left {
+    float: left;
+}
+.editorial-image-right {
+    float: right;
+}
