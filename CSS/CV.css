@@ -192,7 +192,7 @@ box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
 }
 @media (max-width: 640px) {
   .tile {
-    height : 500px;
+    height : 550px;
   }
   }
 
