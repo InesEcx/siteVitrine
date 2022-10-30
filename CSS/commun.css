@@ -1,0 +1,229 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	letter-spacing: .06em;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.header {
+    height: 60px;
+    line-height: 60px;
+    text-align: left;
+	position: relative;
+}
+#nav {
+	margin-top: -60px;
+	display: block;
+	width: 100%;
+	position: fixed;
+	z-index: 100000;
+	background: #fff;
+}
+.head-shadow {
+	box-shadow: 0 2px 3px rgba(0,0,0,.15);
+}
+.logo, .top-nav {
+	display: inline-block;
+	vertical-align: middle;
+}
+.logo {
+    content: "";
+    width: 42px;
+    height: 42px;
+    line-height: 60px;
+    background-image: url("https://cdn-icons-png.flaticon.com/512/4200/4200126.png");
+    background-size: cover;
+}
+.top-nav {
+    position: absolute;
+    right: 15px;
+}
+.top-nav li {
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    padding-left: 20px;
+    font-weight: 900;
+    line-height: 60px;
+}
+.top-nav a {
+    text-decoration: none;
+}
+.descr-banner p {
+    width : 290px;
+}
+.dropDN-menu {
+	display: block;
+	width: 100%;
+	position: absolute;
+	z-index: 10000;
+	top: 60px;
+	left: 0;
+	padding: 30px 15px;
+	text-align: center;
+	background-color: #fff;
+}
+.dropDN-menu a {
+	text-decoration: none;
+	font-weight: 900;
+}
+@media(max-width: 768px) {
+    .descr-banner p {
+        width:auto;
+    }   
+}
+@media(min-width: 320px) {
+	.top-nav {
+		display: none;
+	}
+	.mob-nav {
+		display: inline-block;
+		vertical-align: middle;
+		position: absolute;
+		right: 15px;
+	}
+	.mob-nav span {
+		font-size: 30px;
+		line-height: 60px;
+		color: #555;
+		cursor: pointer;
+	}
+	.dropDN-menu {
+		display: none;
+	}
+
+}
+@media(min-width: 768px) {
+	.top-nav {
+		display: inline-block;
+	}
+	.mob-nav, .dropDN-menu {
+		display: none;
+	}
+}
+a {
+    color: inherit;
+}
+p {
+    margin-bottom: 30px;
+}
+b {
+	font-weight: 900;
+}
+body {
+    font: 400 16px/26px;
+    padding-top: 60px;
+}
+
+.under-line {
+    padding-bottom: 10px;
+    border-bottom: 2px solid #e74c3c;
+  }
+  .slash {
+    color: #e74c3c;
+  }
+  @media(min-width: 320px) {
+    .container {
+        min-width: 320px;
+        padding: 0 15px;
+        margin: 0 auto;
+    }
+}
+@media(min-width: 768px) {
+    .container {
+        max-width: 750px;
+    }
+}
+@media(min-width: 1200px) {
+    .container {
+        max-width: 1170px;
+    }
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+    scrollbar-width: auto;
+    scrollbar-color: #e74c3c #ffffff;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 16px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #ffffff;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #e74c3c;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+}
+.scrolltop {
+	display:none;
+	width:100%;
+	margin:0 auto;
+	position:fixed;
+	bottom:20px;
+	right:10px;	
+}
+.scroll {
+	position:absolute;
+	right:20px;
+	bottom:20px;
+	background:#b2b2b2;
+	background:rgba(178,178,178,0.7);
+	padding:20px;
+	text-align: center;
+	margin: 0 0 0 0;
+	cursor:pointer;
+	transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s; 		
+}
+.scroll:hover {
+	background:rgba(178,178,178,1.0);
+	transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s; 		
+}
+.scroll:hover .fa {
+	padding-top:-10px;
+}
+.scroll .fa {
+	font-size:30px;
+	margin-top:-5px;
+	margin-left:1px;
+	transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s; 	
+}

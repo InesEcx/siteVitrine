@@ -1,86 +1,132 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="icon" type="image/png" sizes="16x16" href="https://cdn-icons-png.flaticon.com/512/4200/4200126.png">
-    <link href="CSS/CV.css" rel="stylesheet">
-    <link href="CSS/navigation.css" rel="stylesheet">
-    <title>Ness Website</title>
-</head>
-<body>
-    <nav role="navigation">
-        <div id="menuToggle">
-      
-          <input type="checkbox" />
-      
-          <span></span>
-          <span></span>
-          <span></span>
-          
-          <ul id="menu">
-            <a href="home.html"><li>Home</li></a>
-            <a href="Drawing.html"><li>Drawing</li></a>
-            <a href="Traveling.html"><li>Traveling</li></a>
-            <a href="Project.html"><li>Projects</li></a>
-          </ul>
-        </div>
-      </nav>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
 
-    <div class="header">
-        <div class="info">
-            <h4>WILD SPIRIT</h4>
-            <h1>WELCOME IN MY WORLD</h1>
-            <div class="meta">
-                By Inès Echaroux
+    <link rel="stylesheet" href="CSS/home.css">
+    
+    <title>Portfolio d'Inès</title>
+
+</head>
+
+<body id="page-top">
+    <div class='thetop'></div>
+    <div id="nav">
+        <header class="header container">
+            <div class="logo"></div>
+            <nav class="top-nav">
+                <ul>
+                    <li><a class="under-line" href="home.html">Accueil</a></li>
+                    <li><a href="Projet.html">Projets</a></li>
+                    <li><a href="#">Dessins</a></li>
+                    <li><a href="#">Voyages</a></li>
+                </ul>
+            </nav>
+
+            <!-- Menu pour les utilisations mobiles -->
+            <div class="mob-nav">
+                <span class="fa fa-bars"></span>
             </div>
-        </div>
+            <nav>
+                <ul class="dropDN-menu">
+                    <li><a href="home.html">Accueil</a></li>
+                    <li><a href="Projet.html">Projets</a></li>
+                    <li><a href="#">Dessins</a></li>
+                    <li><a href="#">Voyages</a></li>
+                </ul>
+            </nav>
+        </header>
     </div>
-      
-    <section class="content">
-        <div class="wrap">
-            <div class="tile"> 
-                <img src='CSS/Images/HomeTile/tile1.jpg'/>
-                <div class="text">
-                    <h1>WHO AM I ?</h1>
-                    <h2 class="animate-text">May I introduce myself</h2>
-                    <p class="animate-text">I am a 22 years-old woman studying Information Technology at Burgundy University named
-                        Inès. However, my friends call me Ness so feel free to do so too. I am curious by nature, I vively 
-                        appreciate learning new things. I am also not scared of making thoughtful decisions and take responsability 
-                        from them. I also speak fluent French and English. I was learning Italian and Chinese in school and I'm still 
-                        learning on my own now. Fondly Ness. </p>
-                </div>
+
+    <main role="main">
+        <section class="banner container">
+            <div class="photo-banner">
+                <img src="CSS/Images/Image PNG.png" alt="Autoportrait d'Inès Echaroux">
             </div>
-            
-            <div class="tile"> 
-                <img src='CSS/Images/HomeTile/tile2.jpg'/>
-                <div class="text">
-                    <h1>MY HOBBIES</h1>
-                    <h2 class="animate-text">How I put my free time in use</h2>
-                    <p class="animate-text"> I enjoy simple stuff such as going out with friends 
-                        or stay cosy at home. However, what I could do all day withtout any problem is drawing. I am what you could 
-                        call a digital artist. Also, I am not really a gamer but I vively enjoy playing Genshin Impact whenever I can. 
-                        I also am addicted to watching movie, my favourite one is Girl, Interrupted by James Mangold by the way, and 
-                        listening to music, I particularly enjoy Phonk at that moment.
-                    </p>
-                </div>
+            <div class="descr-banner">
+                <h1>&lt;Développeuse<span class="slash">/</span>&gt;</h1>
+                <p>Je suis une jeune femme de 22 ans qui étudie l'informatique à l'Université de Bourgogne et je m'appelle Inès.
+                    Cependant, mes amis m'appellent Ness alors n'hésitez pas à le faire aussi. Je suis curieuse par nature, j'apprécie
+                    vivement apprendre de nouvelles choses. Je n'ai pas peur non plus de prendre des décisions réfléchies et d'en assumer
+                    la responsabilité. Je parle aussi couramment le français et l'anglais. J'ai appris l'italien et le chinois à l'école 
+                    et je continue à apprendre par moi-même maintenant.</p>
             </div>
-              
-            <div class="tile"> 
-                <img src='CSS/Images/HomeTile/tile3.jpg'/>
-                <div class="text">
-                    <h1>MY STUDIES</h1>
-                    <h2 class="animate-text">What am I doing and where am I going</h2>
-                    <p class="animate-text">I am registered at the IUT of Dijon in a Computer Science BUT. Before that, I had in 
-                        mind to become a doctor so I started my student life by doing a First Common Year for Health Studies. It was 
-                        not what I expected so I studied psychology hoping I could understand how the human brain works. It was really 
-                        interesting but I couldn't see myself working in this field. So, passionate about artificial intelligence, 
-                        I decided to do a computer science BUT in order to have the chance to work on AI technologies assisting medicine.
-                    </p>
-                </div>
-            </div>
+        </section>
+
+        <div class="first-style-sec">
+            <section id="about" class="about space-section container">
+                <h2>&lt;Mes passes temps<span class="slash">/</span>&gt;</h2>
+                <p>J'aime les choses simples, comme sortir avec des amis ou rester confortablement installé à la maison. Mais ce que je 
+                    pourrais faire toute la journée sans problème, c'est dessiner. Je suis ce qu'on pourrait appeler un artiste numérique. 
+                    Je ne suis pas vraiment ce qu'on pourrait appeler une "gameuse", mais j'aime jouer à Genshin Impact dès que je le peux. 
+                    J'aime aussi regarder des films, mon préféré est Girl, Interrupted de James Mangold, et écouter de la musique, j'apprécie 
+                    particulièrement la Phonk en ce moment.</p>
+            </section>  
         </div>
-    </section>
+
+        <div>
+            <section id="passe" class="passe space-section container">
+                <h2>&lt;Mes études<span class="slash">/</span>&gt;</h2>
+                <p>Je suis inscrite à l'IUT de Dijon en BUT Informatique. Avant cela, j'avais en tête de devenir médecin, j'ai donc commencé ma vie 
+                    étudiante en faisant une Première Année Commune aux Etudes de Santé. Ce n'était pas ce que j'attendais alors j'ai étudié la 
+                    psychologie en espérant comprendre le fonctionnement du cerveau humain. C'était vraiment intéressant mais je ne me voyais pas 
+                    travailler dans ce domaine. Alors, passionné par l'intelligence artificielle, j'ai décidé de faire un BUT informatique pour avoir 
+                    la chance de travailler sur les technologies d'IA aidant la médecine.</p>
+            </section>
+        </div>
+
+        <div class="first-style-sec">
+            <section id="skills" class="skills space-section container">
+                <h2>&lt;Mes compétences<span class="slash">/</span>&gt;</h2>
+                    <div class="social-col">
+                        <ul>
+                            <li><i class="devicon-bootstrap-plain colored"></i></li>
+                            <li><i class="devicon-csharp-line colored"></i></li>
+                            <li><i class="devicon-css3-plain colored"></i></li>
+                            <li><i class="devicon-github-original colored"></i></li>
+                            <li><i class="devicon-html5-plain colored"></i></li>
+                            <li><i class="devicon-javascript-plain colored"></i></li>
+                            <li><i class="devicon-mysql-plain colored"></i></li>
+                            <li><i class="devicon-php-plain colored"></i></li>
+                            <li><i class="devicon-python-plain colored"></i></li>
+                            <li><i class="devicon-r-original colored"></i></li>
+                            <li><i class="devicon-sass-original colored"></i></li>
+                            <li><i class="devicon-visualstudio-plain colored"></i></li>
+                            <li><i class="devicon-vscode-plain colored"></i></li>
+                            <li><i class="devicon-wordpress-plain colored"></i></li>
+                        </ul>
+                    </div>
+            </section>  
+        </div>
+        
+        <div>
+            <section id="contacts" class="contacts space-section container">
+                <h2>&lt;Restons en contact<span class="slash">/</span>&gt;</h2>
+                    <div id="spec" class="social-col">
+                        <ul>
+                            <li><a href="https://www.linkedin.com/in/ines-echaroux-9aa616254/" target="_blank"><span class="icons fa fa-linkedin"></span></a></li>
+                            <li><a href="mailto:inesecharoux@gmail.com" target="_blank"><span class="icons fa fa-google"></span></a></li>
+                            <li><a href="https://github.com/InesEcx" target="_blank"><span class="icons fa fa-git"></span></a></li>
+                        </ul>
+                    </div>
+            </section>
+        </div>
+
+
+        <div class='scrolltop'>
+            <div class='scroll icon'><i class="fa fa-4x fa-angle-up"></i>
+        </div>
+
+    </main>
+
+    <script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-1b93190375e9ccc259df3a57c1abc0e64599724ae30d7ea4c6877eb615f89387.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="JavaScript/home.js"></script>
+    <script type="text/javascript" src="JavaScript/scroll.js"></script>
+
 </body>
 </html>

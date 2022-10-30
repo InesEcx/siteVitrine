@@ -1,0 +1,378 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box; 
+}
+
+@media(min-width: 320px) {
+    .container {
+        min-width: 320px;
+        padding: 0 15px;
+        margin: 0 auto;
+	}
+}
+@media(min-width: 768px) {
+	.container {
+        max-width: 750px;
+	}
+}
+@media(min-width: 1200px) {
+	.container {
+        max-width: 1170px;
+	}
+}
+
+body {
+    font: 400 16px/26px "Roboto", sans-serif;
+    color: #333;
+    letter-spacing: .06em;
+    text-align: center;
+    padding-top: 60px;
+}
+h1, h2, h3 {
+    font-weight: 900;
+    color: #000;
+}
+h1 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+h2 {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+h3 {
+    font-size: 18px;
+}
+a {
+    color: inherit;
+}
+p {
+    margin-bottom: 30px;
+}
+b {
+	font-weight: 900;
+}
+
+@media(min-width: 320px) {
+	.space-section {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+}
+@media(min-width: 768px) {
+	.space-section {
+		padding-top: 80px;
+		padding-bottom: 80px;
+	}
+}
+
+.first-style-sec {
+	background-color: #f4f4f4;
+}
+img {
+	width: 100%;
+}
+
+.header {
+    height: 60px;
+    line-height: 60px;
+    text-align: left;
+	position: relative;
+}
+#nav {
+	margin-top: -60px;
+	display: block;
+	width: 100%;
+	position: fixed;
+	z-index: 100000;
+	background: #fff;
+}
+.head-shadow {
+	box-shadow: 0 2px 3px rgba(0,0,0,.15);
+}
+.logo, .top-nav {
+	display: inline-block;
+	vertical-align: middle;
+}
+.logo {
+    content: "";
+    width: 42px;
+    height: 42px;
+    line-height: 60px;
+    background-image: url("https://cdn-icons-png.flaticon.com/512/4200/4200126.png");
+    background-size: cover;
+}
+.top-nav {
+    position: absolute;
+    right: 15px;
+}
+.top-nav li {
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    padding-left: 20px;
+    font-weight: 900;
+    line-height: 60px;
+}
+.top-nav a {
+    text-decoration: none;
+}
+.descr-banner p {
+    width : 290px;
+}
+.dropDN-menu {
+	display: block;
+	width: 100%;
+	position: absolute;
+	z-index: 10000;
+	top: 60px;
+	left: 0;
+	padding: 30px 15px;
+	text-align: center;
+	background-color: #fff;
+}
+.dropDN-menu a {
+	text-decoration: none;
+	font-weight: 900;
+}
+@media(max-width: 768px) {
+    .descr-banner p {
+        width:auto;
+    }   
+}
+@media(min-width: 320px) {
+    h1 {
+        font-size : 30px
+    }
+	.top-nav {
+		display: none;
+	}
+	.mob-nav {
+		display: inline-block;
+		vertical-align: middle;
+		position: absolute;
+		right: 15px;
+	}
+	.mob-nav span {
+		font-size: 30px;
+		line-height: 60px;
+		color: #555;
+		cursor: pointer;
+	}
+	.dropDN-menu {
+		display: none;
+	}
+
+}
+@media(min-width: 768px) {
+	.top-nav {
+		display: inline-block;
+	}
+	.mob-nav, .dropDN-menu {
+		display: none;
+	}
+}
+
+.banner {
+    text-align: left;
+}
+@media(min-width: 320px) {
+	.photo-banner {
+		display: none;
+	}
+	.descr-banner {
+		display: block;
+		text-align: center;
+		padding: 50px 0 60px 0;
+	}
+}
+@media(min-width: 768px) {
+	.photo-banner, .descr-banner {
+		display: inline-block;
+		vertical-align: top;
+	}
+	.photo-banner {
+		width: 50%;
+		padding-top: 64px;
+		margin-left: 0;
+		line-height: 0;
+	}
+	.descr-banner {
+		text-align: left;
+	  padding-left: 60px;
+	  padding-top: 45px;
+	}
+}
+@media(min-width: 1200px) {
+	.photo-banner {
+		margin-left: 100px;
+	}
+	.descr-banner {
+	  padding-left: 90px;
+	  padding-top: 135px;
+	}
+}
+@media(min-width: 768px) {
+	.about p, .passe p, .etude p, .site p, .skills p {
+		padding: 0 100px;
+	}
+}
+@media(min-width: 1200px) {
+	.about p, .passe p, .etude p, .site p, .skills p {
+		padding: 0 300px;
+	}
+}
+ul li i {
+    font-size : 50px;
+}
+
+.social-col,
+.social-col ul,
+.social-col li,
+span.icons {
+	display: inline-block;
+}
+.social-col {
+	text-align: left;
+}
+.social-col li {
+	padding-right: 20px;
+}
+span.icons {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	color: #fff;
+	text-align: center;
+	line-height: 50px;
+	font-size: 30px;
+}
+.fa-linkedin {
+	background-color: #3462cc;
+}
+.fa-google {
+	background-color: #c0392b;
+}
+.fa-git {
+	background-color: #172829;
+}
+@media(min-width: 320px) {
+	.social-col li {
+		padding-bottom: 20px;
+	}
+	.social-col {
+		width: 100%;
+		text-align: center;
+		vertical-align: top;
+		padding-left: 0;
+	}
+}
+@media(min-width: 768px) {
+	.social-col li {
+		padding-bottom: 0;
+	}
+	.br-icons {
+		display: inline-block;
+	}
+}
+@media(min-width: 1200px) {
+	.social-col li {
+		padding-bottom: 20px;
+	}
+	.br-icons {
+		display: block;
+	}
+    .social-col {
+		text-align: left;
+		vertical-align: top;
+		display: inline-block;
+		width: calc(100% - 600px);
+	}
+    #spec {
+        padding-left: 100px;
+        width: calc(100% - 730px);
+    }
+}
+
+.under-line {
+  padding-bottom: 10px;
+  border-bottom: 2px solid #e74c3c;
+}
+.slash {
+  color: #e74c3c;
+}
+.scrolltop {
+	display:none;
+	width:100%;
+	margin:0 auto;
+	position:fixed;
+	bottom:20px;
+	right:10px;	
+}
+.scroll {
+	position:absolute;
+	right:20px;
+	bottom:20px;
+	background:#b2b2b2;
+	background:rgba(178,178,178,0.7);
+	padding:20px;
+	text-align: center;
+	margin: 0 0 0 0;
+	cursor:pointer;
+	transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s; 		
+}
+.scroll:hover {
+	background:rgba(178,178,178,1.0);
+	transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s; 		
+}
+.scroll:hover .fa {
+	padding-top:-10px;
+}
+.scroll .fa {
+	font-size:30px;
+	margin-top:-5px;
+	margin-left:1px;
+	transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s; 	
+}
