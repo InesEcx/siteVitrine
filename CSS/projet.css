@@ -39,10 +39,10 @@ button {
 button:focus {
   outline: 0;
 }
-#movie-card-list {
+#project-card-list {
     padding-bottom: 2em;
 }
-.movie-card {
+.project-card {
   background-size: contain;
   background-repeat: no-repeat;
   width: 100%;
@@ -56,43 +56,43 @@ button:focus {
   position: relative;
 }
 @media screen and (max-width: 800px) {
-  .movie-card {
+  .project-card {
     width: 95%;
     max-width: 95%;
   }
 }
 @media screen and (max-width: 600px) {
-  .movie-card {
+  .project-card {
     background-position: 50% 0%;
     background-size: cover;
     height: 400px;
   }
 }
-.movie-card[data="Air Pur"] {
+.project-card[data="Air Pur"] {
     background-image: url("https://i.pinimg.com/564x/5c/c4/1e/5cc41e10297d19741988869d7f8e2eb6.jpg");
     background-size: 100% 100%;
 }
-.movie-card[data="Drain Mind"] {
+.project-card[data="Drain Mind"] {
     background-image: url("Images/fond.png");
     background-size: 100% 100%;
 }
-.movie-card[data=Euristiques] {
+.project-card[data=Euristiques] {
     background-image: url("https://i.pinimg.com/564x/e9/1a/da/e91ada86f8115c3b7429a0639b60cb01.jpg");
     background-size: 100% 100%;
 }
-.movie-card[data=Reseau] {
+.project-card[data=Reseau] {
     background-image: url("https://i.pinimg.com/564x/2c/92/67/2c926785f4d9b4cfd62777670380b91d.jpg");
     background-size: 100% 100%;
 }
-.movie-card[data=Jinko] {
+.project-card[data=Jinko] {
     background-image: url("https://i.pinimg.com/564x/43/f3/20/43f32025734b0f2a4421632ed852972b.jpg");
     background-size: 100% 100%;
 }
-.movie-card[data=bdd] {
+.project-card[data=bdd] {
     background-image: url("https://cdn.wallpapersafari.com/18/6/igBQmx.jpg");
     background-size: 100% 100%;
 }
-.movie-card__overlay {
+.project-card__overlay {
   width: 100%;
   height: 100%;
   border-radius: 8px;
@@ -105,35 +105,35 @@ button:focus {
   left: 0;
 }
 @media screen and (max-width: 760px) {
-  .movie-card__overlay {
+  .project-card__overlay {
     background: linear-gradient(to bottom, rgba(42, 159, 255, 0.2) 0%, #212120 60%, #212120 100%);
   }
 }
-.movie-card__share {
+.project-card__share {
   padding: 1em;
   display: inline-block;
   width: 100%;
   max-width: 130px;
 }
 @media screen and (max-width: 600px) {
-  .movie-card__share {
+  .project-card__share {
     display: block;
     width: 100%;
   }
 }
-.movie-card__icon {
+.project-card__icon {
   color: #ffffff;
   mix-blend-mode: lighten;
   background: none;
   padding: 0;
 }
-.movie-card__icon:not(:first-of-type) {
+.project-card__icon:not(:first-of-type) {
   margin-left: 5px;
 }
-.movie-card__icon i {
+.project-card__icon i {
   font-size: 1.8em;
 }
-.movie-card__content {
+.project-card__content {
   width: 100%;
   max-width: 370px;
   display: flex;
@@ -145,12 +145,12 @@ button:focus {
   padding-bottom: 1em;
 }
 @media screen and (max-width: 1000px) {
-  .movie-card__content {
+  .project-card__content {
     width: 50%;
   }
 }
 @media screen and (max-width: 760px) {
-  .movie-card__content {
+  .project-card__content {
     margin-top: 4.2em;
     width: 100%;
     float: inherit;
@@ -159,19 +159,19 @@ button:focus {
   }
 }
 @media (max-width: 385px) {
-  .movie-card__title {
+  .project-card__title {
     font-size:1.6em;
   }
 }
-.movie-card__header {
+.project-card__header {
   margin-bottom: 2em;
 }
-.movie-card__title {
+.project-card__title {
   color: #ffffff;
   margin-bottom: 0.25em;
   opacity: 0.75;
 }
-.movie-card__info {
+.project-card__info {
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 0.8em;
@@ -181,7 +181,7 @@ button:focus {
   font-weight: 700;
   opacity: 0.5;
 }
-.movie-card__desc {
+.project-card__desc {
   font-weight: 300;
   opacity: 0.84;
   color: #cfd6e1;
