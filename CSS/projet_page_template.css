@@ -141,8 +141,7 @@
 .blog-slider__text {
     color: #4e4a67;
     text-align: justify;
-    margin-bottom: 30px;
-line-height: 1.5em;
+    line-height: 1.2em;
 }
 @media  (max-width: 576px) {
     .blog-slider__button {
