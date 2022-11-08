@@ -10,7 +10,7 @@ body {
 }
 .wrapper {
   position: relative;
-  background: url(images/fond.png) no-repeat center center/cover;
+  background: url(images/attenteFond.jpg) no-repeat center center/cover;
 }
 .wrapper:before {
   content: "";
