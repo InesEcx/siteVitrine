@@ -31,7 +31,6 @@
 }
 @media (max-width: 768px) {
     .blog-slider__item {
-        position :fixed;
         flex-direction: column;
     }
 }
