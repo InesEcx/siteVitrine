@@ -1,4 +1,4 @@
-import * as THREE from 'three';
+/// <reference path="three.d.ts" />
 
 
 /**

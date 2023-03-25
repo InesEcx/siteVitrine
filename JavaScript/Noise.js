@@ -1,6 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-const THREE = require("three");
 class Noise {
     constructor() {
         this.canvas = document.getElementById('webgl');
