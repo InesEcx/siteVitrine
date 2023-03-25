@@ -1,4 +1,5 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 const THREE = require("three");
 const OrbitControls_1 = require("three/examples/jsm/controls/OrbitControls");
 const config = {
