@@ -5,10 +5,6 @@
  */
 class Application
 {
-    
-    /**
-     * Main view
-     */
     private _noise: Noise;
 
     /**
