@@ -1,4 +1,5 @@
 /// <reference path="three.d.ts" />
+/// <reference path="orbitcontrols.d.ts"/>
 
 /** Configuration des paramètres de la forme */
 const config = {
@@ -48,6 +49,7 @@ class Noise
     private scene : THREE.Scene;
     private camera : THREE.PerspectiveCamera;
     private clock : THREE.Clock;
+    private controls : THREE.OrbitControls;
 
     /**
      * Constructor
@@ -62,8 +64,18 @@ class Noise
         this.camera = new THREE.PerspectiveCamera(45);
         this.camera.position.set(0,0.5,3);
 
+        this.controls = new THREE.OrbitControls(this.camera, this.canvas);
+        this.controls.target.set(0, 0, 0);
+        this.controls.rotateSpeed = 0.5;
+        //this.controls.enableZoom = false;
+        this.update();
+
         this.addForm();
         this.makeRender();
+    }
+
+    private update() {
+        this.controls.update();
     }
 
     private makeRender() {

@@ -39,8 +39,15 @@ class Noise {
         this.clock = new THREE.Clock();
         this.camera = new THREE.PerspectiveCamera(45);
         this.camera.position.set(0, 0.5, 3);
+        this.controls = new THREE.OrbitControls(this.camera, this.canvas);
+        this.controls.target.set(0, 0, 0);
+        this.controls.rotateSpeed = 0.5;
+        this.update();
         this.addForm();
         this.makeRender();
+    }
+    update() {
+        this.controls.update();
     }
     makeRender() {
         this.renderer.render(this.scene, this.camera);
