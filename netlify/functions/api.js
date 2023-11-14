@@ -1,13 +1,13 @@
-const webServer = require('./server/webServer');
-const path = require('path');
+// YOUR_BASE_DIRECTORY/netlify/functions/api.ts
 
-//Creation of the server
-const server = webServer;
+import express, { Router } from "express";
+import serverless from "serverless-http";
 
-//link between http server (express) and websocket server
-socketServer(server);
-const port = 3000 || process.argv[0];
+const api = express();
 
-server.listen(3000, () => {
-    console.log('Lancement du serveur : http://localhost:3000');
-});
+const router = Router();
+router.get("/hello", (req, res) => res.send("Hello World!"));
+
+api.use("/api/", router);
+
+export const handler = serverless(api);
